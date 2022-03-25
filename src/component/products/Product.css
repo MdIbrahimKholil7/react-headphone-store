@@ -10,8 +10,15 @@
     justify-items: center;
     gap: 4rem;
 }
-
-@media screen and (max-width:1100px) {
+.cart-container{
+    background: rgb(1, 2, 41);
+    color: #fff;
+    padding: 1.3rem 1rem;
+    position: sticky;
+    top: 8rem;
+    height: calc(100vh - 8rem);
+}
+@media screen and (max-width:1180px) {
     .products{
         grid-template-columns: repeat(2,1fr);
     }
