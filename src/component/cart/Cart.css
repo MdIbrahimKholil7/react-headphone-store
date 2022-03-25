@@ -1,0 +1,23 @@
+.cart{
+    margin-top: 2rem;
+    width: 17rem;
+    height: 5rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    
+    
+}
+.cart img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+}
+.cart h3{
+    font-size: 1rem;
+}
+.trash{
+    font-size: 1.5rem;
+
+}
