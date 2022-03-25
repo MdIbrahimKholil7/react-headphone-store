@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Golden Beats Headphones",
+      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "name": "Golden Beats Headphones",
+      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "price": 100
+    },
+    {
+      "id": 3,
+      "name": "Golden Beats Headphones",
+      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "price": 100
+    },
+    {
+      "id": 4,
+      "name": "Golden Beats Headphones",
+      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "price": 100
+    },
+    {
+      "id": 5,
+      "name": "Golden Beats Headphones",
+      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "price": 100
+    },
+    {
+      "id": 6,
+      "name": "Golden Beats Headphones",
+      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "price": 100
+    },
+    {
+      "id": 7,
+      "name": "Golden Beats Headphones",
+      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "price": 100
+    }
+  ]
