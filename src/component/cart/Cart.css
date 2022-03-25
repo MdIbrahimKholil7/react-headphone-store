@@ -12,6 +12,7 @@
 .cart img{
     width: 3rem;
     height: 3rem;
+    border-radius: .5rem;
     object-fit: cover;
 }
 .cart h3{
