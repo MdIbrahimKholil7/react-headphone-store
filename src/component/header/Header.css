@@ -28,3 +28,21 @@
     margin-left: 1rem;
     font-family: sans-serif;
 }
+
+
+@media screen and (max-width:900px){
+    .nav{
+        width: 78rem;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    html{
+        font-size: 55%;
+    }
+}
+@media screen and (max-width:810px){
+    html{
+        font-size: 52%;
+    }
+}
+

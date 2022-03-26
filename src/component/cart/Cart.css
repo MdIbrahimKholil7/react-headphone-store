@@ -22,3 +22,13 @@
     font-size: 1.5rem;
 
 }
+
+@media screen and (max-width:888px){
+    .cart{
+        width: 30rem;
+        margin: 3rem auto;
+    }
+    .cart h3{
+        font-size: 1.2rem;
+    }
+}

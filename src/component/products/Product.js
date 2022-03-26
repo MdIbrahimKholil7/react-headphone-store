@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../cart/Cart';
-import ReactModal from '../modal/ReactModal';
+import Modal from 'react-modal';
 import ProductCart from '../productCard/ProductCart';
 import './Product.css'
 
@@ -17,9 +17,23 @@ const Product = () => {
     // adding event handler for cart 
     let productArr = []
     const cartHandler = product => {
-        productArr.push(...carts, product)
+        let newIndex=carts.indexOf(product)
+        if(newIndex > -1){
+           return alert('already added')
+        }
+        if(newIndex === -1){
+            productArr.push(...carts,product)
+        }
+        
+        // console.log(newIndex)
+        /* else if (newIndex > 0){
+            return alert('already Added')
+        } */
+        
         if (productArr.length > 4) {
-            return alert('you cant choose more than 4')
+            setIsOpen(true)
+            // return alert('you cant choose more than 4')
+            return
         }
         cartState(productArr)
     }
@@ -53,9 +67,34 @@ const Product = () => {
         console.log(deleteIndex) */
     }
 
+    // react modal 
+    const [modalIsOpen, setIsOpen] =useState(false);
 
+    
+      function closeModal() {
+        setIsOpen(false);
+      }
+      const customStyles = {
+        content: {
+          top: '50%',
+          left: '50%',
+          right: 'auto',
+          bottom: 'auto',
+          marginRight: '-50%',
+          transform: 'translate(-50%, -50%)',
+        },
+      };
     return (
+        
         <div className='product-container'>
+            <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        style={customStyles}
+        contentLabel="Example Modal"
+      >
+          <h1>You can't Select More than four product</h1>
+      </Modal>
             <div className="products">
                 {
                     products.map(product => <ProductCart
