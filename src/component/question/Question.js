@@ -4,7 +4,7 @@ import './Question.css'
 const Question = () => {
     return (
         <div> 
-            <div className='question'>
+            <div data-aos="fade-right" className='question'>
                 <Accordion>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header><h3>How Does React Work?</h3></Accordion.Header>

@@ -6,7 +6,7 @@ const ProductCart = ({product,cartHandler}) => {
     const {img,name,price}=product
     // console.log(product.id)
     return (
-        <div className='card'>
+        <div data-aos="zoom-in" className='card'>
             <img className='img' src={img} alt="" />
             <div className="details">
                 <h4>Name : {name}</h4>
