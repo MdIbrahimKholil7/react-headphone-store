@@ -28,7 +28,12 @@ const Product = () => {
         const randomNum = Math.floor(Math.random() * carts.length);
         let randomProduct=carts[randomNum]
         console.log(randomProduct)
-        const newProd=carts.filter(cart => cart.id !== randomProduct.id)
+        carts.splice(0,carts.length,randomProduct)
+        const newCart=[...carts]
+        cartState(newCart)
+        console.log(newCart)
+        console.log(randomProduct)
+        /* const newProd=carts.filter(cart => cart.id !== randomProduct.id)
         // console.log(newProd)
         
         for(let prod of newProd){
@@ -36,15 +41,10 @@ const Product = () => {
             carts.splice(item,1)
             let newItem=[...carts]
             cartState(newItem)
-        }
+        } */
         
-        // console.log(newItem)
-        // console.log(newItem)
-        // cartState(newItem)
-        /* carts.splice(new)
-        console.log(carts) */
     }
-    console.log(carts)
+    // console.log(carts)
 
 
     // console.log(carts)
