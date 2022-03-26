@@ -24,6 +24,7 @@ const Product = () => {
         cartState(productArr)
     }
     
+    // choose btn event handler 
     const chooseBtn=()=>{
         const randomNum = Math.floor(Math.random() * carts.length);
         let randomProduct=carts[randomNum]
@@ -31,24 +32,14 @@ const Product = () => {
         carts.splice(0,carts.length,randomProduct)
         const newCart=[...carts]
         cartState(newCart)
-        console.log(newCart)
-        console.log(randomProduct)
-        /* const newProd=carts.filter(cart => cart.id !== randomProduct.id)
-        // console.log(newProd)
-        
-        for(let prod of newProd){
-            let item=carts.indexOf(prod)
-            carts.splice(item,1)
-            let newItem=[...carts]
-            cartState(newItem)
-        } */
         
     }
-    // console.log(carts)
-
-
-    // console.log(carts)
-    // randomly choose btn 
+    
+    // choose again btn handler 
+    const chooseAgain=()=>{
+        const emptyArr=[]
+        cartState(emptyArr)
+    }
     
     return (
         <div className='product-container'>
@@ -70,7 +61,7 @@ const Product = () => {
                 <div className="btn-container">
                     {/* <ReactModal cart={carts}></ReactModal> */}
                     <button onClick={chooseBtn} className='choose-btn'>Choose 1 For Me</button>
-                    <button className='again-btn'>Choose Again </button>
+                    <button onClick={chooseAgain} className='again-btn'>Choose Again </button>
                 </div>
                 
                
