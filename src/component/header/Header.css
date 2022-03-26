@@ -35,6 +35,14 @@
         width: 78rem;
     }
 }
+@media screen and (max-width:768px){
+    .menu{
+        display: none;
+    }
+    .nav{
+        justify-content: center;
+    }
+}
 @media screen and (min-width:481px) and (max-width:768px){
     html{
         font-size: 55%;

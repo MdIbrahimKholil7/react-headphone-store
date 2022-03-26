@@ -3,84 +3,84 @@
       "id": 1,
       "name": "Golden Beats Headphones1",
       "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-      "price": 100
+      "price": 99
     },
     {
       "id": 2,
-      "name": "Golden Beats Headphones2",
-      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-      "price": 100
+      "name": "Mexico Headphone",
+      "img": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGVhZHBob25lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "price": 63
     },
     {
       "id": 3,
-      "name": "Golden Beats Headphones3",
-      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-      "price": 100
+      "name": "Airpod Headphones",
+      "img": "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aGVhZHBob25lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "price": 70
     },
     {
       "id": 4,
-      "name": "Golden Beats Headphones4",
-      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-      "price": 100
+      "name": "Golden Headphones",
+      "img": "https://images.unsplash.com/photo-1593121925328-369cc8459c08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aGVhZHBob25lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "price": 88
     },
     {
       "id": 5,
-      "name": "Golden Beats Headphones5",
-      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-      "price": 100
+      "name": "Beats Headphones",
+      "img": "https://images.unsplash.com/photo-1599669454699-248893623440?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhlYWRwaG9uZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+      "price": 93
     },
     {
       "id": 6,
-      "name": "Golden Beats Headphones",
-      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-      "price": 100
+      "name": "Sony Headphones",
+      "img": "https://images.unsplash.com/photo-1574494461754-de04dc403eec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGhlYWRwaG9uZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+      "price": 67
     },
     {
       "id": 7,
-      "name": "Golden Beats Headphones",
-      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-      "price": 100
+      "name": "RedMax Headphones",
+      "img": "https://media.istockphoto.com/photos/red-headphones-isolated-picture-id835148968?b=1&k=20&m=835148968&s=170667a&w=0&h=hXa9UiLeFASHfln_EJ2wSt3ddfcRIdg6BrBCLTow_Zs=",
+      "price": 22
     },
     {
       "id": 8,
-      "name": "Golden Beats Headphones",
-      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-      "price": 100
+      "name": "SonyM1 Headphones",
+      "img": "https://images.unsplash.com/photo-1577174881658-0f30ed549adc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "price": 43
     },
     {
       "id": 9,
-      "name": "Golden Beats Headphones",
-      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-      "price": 100
+      "name": "Ultra Pro Headphones",
+      "img": "https://images.unsplash.com/photo-1471174569907-e911cbbd6d5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      "price": 77
     },
     {
       "id": 10,
-      "name": "Golden Beats Headphones",
-      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-      "price": 100
+      "name": "MexicoC3 Headphones",
+      "img": "https://images.unsplash.com/photo-1516972238977-89271fb2bab8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      "price": 61
     },
     {
       "id": 11,
-      "name": "Golden Beats Headphones",
-      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-      "price": 100
+      "name": "AlphaA4 Headphones",
+      "img": "https://images.unsplash.com/photo-1481207801830-97f0f9a1337e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "price": 34
     },
     {
       "id": 12,
-      "name": "Golden Beats Headphones",
-      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-      "price": 100
+      "name": "NikonN12 Headphones",
+      "img": "https://images.unsplash.com/photo-1483032711911-cfd45aabc9a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      "price": 98
     },
     {
       "id": 13,
-      "name": "Golden Beats Headphones",
-      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-      "price": 100
+      "name": "NikonCs3 Headphones",
+      "img": "https://images.unsplash.com/photo-1548378329-437e1ef34263?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      "price": 65
     },
     {
       "id": 14,
-      "name": "Golden Beats Headphones",
-      "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-      "price": 100
+      "name": "Airpod Headphones",
+      "img": "https://images.unsplash.com/photo-1580236176063-bea7f16aec30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=372&q=80",
+      "price": 76
     }
   ]

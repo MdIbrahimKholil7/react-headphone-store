@@ -3,6 +3,7 @@ import Cart from '../cart/Cart';
 import Modal from 'react-modal';
 import ProductCart from '../productCard/ProductCart';
 import './Product.css'
+import Question from '../question/Question';
 
 const Product = () => {
     const [products, stateProducts] = useState([])
@@ -17,19 +18,19 @@ const Product = () => {
     // adding event handler for cart 
     let productArr = []
     const cartHandler = product => {
-        let newIndex=carts.indexOf(product)
-        if(newIndex > -1){
-           return alert('already added')
+        let newIndex = carts.indexOf(product)
+        if (newIndex > -1) {
+            return alert('already added')
         }
-        if(newIndex === -1){
-            productArr.push(...carts,product)
+        if (newIndex === -1) {
+            productArr.push(...carts, product)
         }
-        
+
         // console.log(newIndex)
         /* else if (newIndex > 0){
             return alert('already Added')
         } */
-        
+
         if (productArr.length > 4) {
             setIsOpen(true)
             // return alert('you cant choose more than 4')
@@ -40,8 +41,8 @@ const Product = () => {
 
     // choose btn event handler 
     const chooseBtn = () => {
-        if(carts.length === 0){
-            return alert ('Please choose some cart')
+        if (carts.length === 0) {
+            return alert('Please choose some cart')
         }
         const randomNum = Math.floor(Math.random() * carts.length);
         let randomProduct = carts[randomNum]
@@ -59,50 +60,56 @@ const Product = () => {
 
     // delete cart btn 
     const deleteHandler = (product) => {
-        const deleteIndex=carts.indexOf(product)
-        carts.splice(deleteIndex,1)
-        const newDeleteProduct=[...carts]
+        const deleteIndex = carts.indexOf(product)
+        carts.splice(deleteIndex, 1)
+        const newDeleteProduct = [...carts]
         cartState(newDeleteProduct)
         /* console.log(carts)
         console.log(deleteIndex) */
     }
 
     // react modal 
-    const [modalIsOpen, setIsOpen] =useState(false);
+    const [modalIsOpen, setIsOpen] = useState(false);
 
-    
-      function closeModal() {
+
+    function closeModal() {
         setIsOpen(false);
-      }
-      const customStyles = {
+    }
+    const customStyles = {
         content: {
-          top: '50%',
-          left: '50%',
-          right: 'auto',
-          bottom: 'auto',
-          marginRight: '-50%',
-          transform: 'translate(-50%, -50%)',
+            top: '50%',
+            left: '50%',
+            right: 'auto',
+            bottom: 'auto',
+            marginRight: '-50%',
+            transform: 'translate(-50%, -50%)',
+            padding: '3rem 5rem'
         },
-      };
+    };
     return (
-        
+
         <div className='product-container'>
             <Modal
-        isOpen={modalIsOpen}
-        onRequestClose={closeModal}
-        style={customStyles}
-        contentLabel="Example Modal"
-      >
-          <h1>You can't Select More than four product</h1>
-      </Modal>
-            <div className="products">
-                {
-                    products.map(product => <ProductCart
-                        key={product.id}
-                        product={product}
-                        cartHandler={cartHandler}
-                    ></ProductCart>)
-                }
+                isOpen={modalIsOpen}
+                onRequestClose={closeModal}
+                style={customStyles}
+                contentLabel="Example Modal"
+            >
+                <div>
+                    <h1>You can't Select More than four product</h1>
+                </div>
+            </Modal>
+            <div>
+                <div className="products">
+                    {
+                        products.map(product => <ProductCart
+                            key={product.id}
+                            product={product}
+                            cartHandler={cartHandler}
+                        ></ProductCart>)
+                    }
+                </div>
+                <Question></Question>   
             </div>
             <div className="cart-container">
                 <h4>Selected Items : {carts.length}</h4>
